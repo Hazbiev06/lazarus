@@ -1,0 +1,38 @@
+object Form1: TForm1
+  Left = 341
+  Height = 240
+  Top = 196
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '2.2.6.0'
+  object Memo1: TMemo
+    Left = 32
+    Height = 112
+    Top = 64
+    Width = 264
+    Lines.Strings = (
+      ''
+    )
+    OnChange = Memo1Change
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 64
+    Height = 30
+    Top = 16
+    Width = 197
+    Caption = 'Использование компонента Memo '#13#10' для вывода символьного массива'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 88
+    Height = 28
+    Top = 195
+    Width = 124
+    Caption = 'Вывод'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+end
